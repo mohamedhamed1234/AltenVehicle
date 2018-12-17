@@ -1,0 +1,14 @@
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\obj\Debug\netcoreapp2.1\CustomerVehicles.csproj.CoreCompileInputs.cache
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\obj\Debug\netcoreapp2.1\CustomerVehicles.AssemblyInfoInputs.cache
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\obj\Debug\netcoreapp2.1\CustomerVehicles.AssemblyInfo.cs
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\bin\Debug\netcoreapp2.1\CustomerVehicles.deps.json
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\bin\Debug\netcoreapp2.1\CustomerVehicles.runtimeconfig.json
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\bin\Debug\netcoreapp2.1\CustomerVehicles.runtimeconfig.dev.json
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\bin\Debug\netcoreapp2.1\CustomerVehicles.dll
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\bin\Debug\netcoreapp2.1\CustomerVehicles.pdb
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\obj\Debug\netcoreapp2.1\CustomerVehicles.csprojAssemblyReference.cache
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\obj\Debug\netcoreapp2.1\CustomerVehicles.RazorAssemblyInfo.cache
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\obj\Debug\netcoreapp2.1\CustomerVehicles.RazorAssemblyInfo.cs
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\obj\Debug\netcoreapp2.1\CustomerVehicles.RazorTargetAssemblyInfo.cache
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\obj\Debug\netcoreapp2.1\CustomerVehicles.dll
+D:\ALTEN project\AltenVehiclesMonitor\CustomerVehicles\obj\Debug\netcoreapp2.1\CustomerVehicles.pdb

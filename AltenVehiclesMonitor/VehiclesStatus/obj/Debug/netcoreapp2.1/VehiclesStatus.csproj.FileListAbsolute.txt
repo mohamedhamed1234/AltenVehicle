@@ -1,0 +1,14 @@
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\obj\Debug\netcoreapp2.1\VehiclesStatus.csproj.CoreCompileInputs.cache
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\obj\Debug\netcoreapp2.1\VehiclesStatus.AssemblyInfoInputs.cache
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\obj\Debug\netcoreapp2.1\VehiclesStatus.AssemblyInfo.cs
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\bin\Debug\netcoreapp2.1\VehiclesStatus.deps.json
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\bin\Debug\netcoreapp2.1\VehiclesStatus.runtimeconfig.json
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\bin\Debug\netcoreapp2.1\VehiclesStatus.runtimeconfig.dev.json
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\bin\Debug\netcoreapp2.1\VehiclesStatus.dll
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\bin\Debug\netcoreapp2.1\VehiclesStatus.pdb
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\obj\Debug\netcoreapp2.1\VehiclesStatus.csprojAssemblyReference.cache
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\obj\Debug\netcoreapp2.1\VehiclesStatus.RazorAssemblyInfo.cache
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\obj\Debug\netcoreapp2.1\VehiclesStatus.RazorAssemblyInfo.cs
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\obj\Debug\netcoreapp2.1\VehiclesStatus.RazorTargetAssemblyInfo.cache
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\obj\Debug\netcoreapp2.1\VehiclesStatus.dll
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesStatus\obj\Debug\netcoreapp2.1\VehiclesStatus.pdb

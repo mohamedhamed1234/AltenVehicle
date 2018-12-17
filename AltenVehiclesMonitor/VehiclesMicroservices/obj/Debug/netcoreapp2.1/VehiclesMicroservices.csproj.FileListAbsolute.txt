@@ -1,0 +1,15 @@
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\obj\Debug\netcoreapp2.1\VehiclesMicroservices.csproj.CoreCompileInputs.cache
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\obj\Debug\netcoreapp2.1\VehiclesMicroservices.AssemblyInfoInputs.cache
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\obj\Debug\netcoreapp2.1\VehiclesMicroservices.AssemblyInfo.cs
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\bin\Debug\netcoreapp2.1\VehiclesMicroservices.deps.json
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\bin\Debug\netcoreapp2.1\VehiclesMicroservices.runtimeconfig.json
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\bin\Debug\netcoreapp2.1\VehiclesMicroservices.runtimeconfig.dev.json
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\bin\Debug\netcoreapp2.1\VehiclesMicroservices.dll
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\bin\Debug\netcoreapp2.1\VehiclesMicroservices.pdb
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\obj\Debug\netcoreapp2.1\VehiclesMicroservices.csprojAssemblyReference.cache
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\obj\Debug\netcoreapp2.1\VehiclesMicroservices.RazorAssemblyInfo.cache
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\obj\Debug\netcoreapp2.1\VehiclesMicroservices.RazorAssemblyInfo.cs
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\obj\Debug\netcoreapp2.1\VehiclesMicroservices.RazorTargetAssemblyInfo.cache
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\obj\Debug\netcoreapp2.1\VehiclesMicroservices.dll
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\obj\Debug\netcoreapp2.1\VehiclesMicroservices.pdb
+D:\ALTEN project\AltenVehiclesMonitor\VehiclesMicroservices\bin\Debug\netcoreapp2.1\wwwroot\DataAccessLayer\Data.xml
