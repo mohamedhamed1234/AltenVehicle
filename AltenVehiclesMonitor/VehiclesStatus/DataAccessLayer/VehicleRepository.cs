@@ -10,9 +10,14 @@ namespace VehiclesStatus.DataAccessLayer
 {
     public class VehicleRepository
     {
+        /// <summary>
+        /// retrieve vehicle data from XML and returns vehicle by id
+        /// </summary>
+        /// <param name="id"> vehicle id</param>
+        /// <returns>DataRow[] of vehicles</returns>
         public static DataRow[] loadData(string id)
         {
-
+                        
             string xmlData = XmlData.VehicleData;
 
             var xml = new MemoryStream(Encoding.Unicode.GetBytes(xmlData));
@@ -22,9 +27,9 @@ namespace VehiclesStatus.DataAccessLayer
             dataSet.ReadXml(xml);
 
             DataTable tblMEN = dataSet.Tables["Vehicle"];
-            DataRow[] results = tblMEN.Select("Id = '" + id + "'");
+            DataRow[] vehiclesResults = tblMEN.Select("Id = '" + id + "'");
 
-            return results;
+            return vehiclesResults;
         }
     }
 }

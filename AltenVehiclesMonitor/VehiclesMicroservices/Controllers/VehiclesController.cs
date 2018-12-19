@@ -15,6 +15,10 @@ namespace AltenVehiclesMonitor.Controllers
     [ApiController]
     public class VehiclesController : ControllerBase
     {
+        /// <summary>
+        /// gets all vehicles data
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<VehicleViewModel> Get()
         {          
             var vm = VehicleViewModel.Vehicles;

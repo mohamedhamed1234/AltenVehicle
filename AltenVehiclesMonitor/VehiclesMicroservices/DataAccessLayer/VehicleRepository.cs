@@ -11,7 +11,10 @@ namespace VehiclesMicroservices.DataAccessLayer
 {
     public class VehicleRepository
     {
-
+        /// <summary>
+        /// load all vehicles data from XML
+        /// </summary>
+        /// <returns></returns>
         public static DataRow[] loadData()
         {
 

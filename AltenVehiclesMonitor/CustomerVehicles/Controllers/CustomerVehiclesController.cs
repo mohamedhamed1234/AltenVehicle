@@ -12,6 +12,11 @@ namespace CustomerVehicles.Controllers
     [ApiController]
     public class CustomerVehiclesController : ControllerBase
     {
+        /// <summary>
+        /// gets customer vehicles by customer id
+        /// </summary>
+        /// <param name="customerId"></param>
+        /// <returns></returns>
         [HttpGet("{CustomerId}")]
         public IEnumerable<VehicleViewModel> Get(string customerId)
         {

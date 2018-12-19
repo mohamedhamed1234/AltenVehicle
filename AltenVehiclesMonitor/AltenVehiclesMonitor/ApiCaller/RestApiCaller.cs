@@ -32,7 +32,10 @@ namespace AltenVehiclesMonitor.ApiCaller
         {
             RestUrl = "http://vehiclesmicroservices-dev.us-east-1.elasticbeanstalk.com";
         }
-
+        /// <summary>
+        /// call vehicles microservice and return all vehicle data
+        /// </summary>
+        /// <returns> List<VehicleModel> </returns>
         public async Task<List<VehicleModel>> VehiclesAsync()
         {
             string url = RestUrl + "/api/vehicles";

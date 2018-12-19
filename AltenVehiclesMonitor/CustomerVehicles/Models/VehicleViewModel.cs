@@ -23,39 +23,60 @@ namespace CustomerVehicles.Models
 
         public string CustomerAddress { get; set; }
 
-
+        /// <summary>
+        /// return List of vehicles models
+        /// </summary>
+        /// <param name="customerId"></param>
+        /// <returns></returns>
         public static List<VehicleViewModel> Vehicles(string customerId)
         {
 
-            DataRow[] results = VehicleRepository.loadData(customerId);
+            
             List<VehicleViewModel> cvs = new List<VehicleViewModel>();
 
-            Random rnd = new Random();
-            string status = "";
-
-            foreach (DataRow item in results)
+            try
             {
-                //generate Random Number to simulate vehicle status
-                int number = rnd.Next(2);
+                DataRow[] results = VehicleRepository.loadData(customerId);
+                Random rnd = new Random();
+                string status = "";
 
-                if (number == 0)
+                foreach (DataRow item in results)
                 {
-                    status = "Disconnected";
+                    //generate Random Number to simulate vehicle status
+                    int number = rnd.Next(2);
+
+                    if (number == 0)
+                    {
+                        status = "Disconnected";
+                    }
+                    else
+                    {
+                        status = "Connected";
+                    }
+
+                    cvs.Add(new VehicleViewModel
+                    {
+                        Id = int.Parse(item["Id"].ToString()),
+                        VehicleId = item["VehicleId"].ToString(),
+                        RegNo = item["RegNo"].ToString(),
+                        Status = status,// item["Status"].ToString(),
+                        CustomerId = int.Parse(item["CustomerId"].ToString()),
+                        CustomerName = item["CustomerName"].ToString(),
+                        CustomerAddress = item["CustomerAddress"].ToString()
+                    });
                 }
-                else
-                {
-                    status = "Connected";
-                }
+            }
+            catch(Exception ex) {
 
                 cvs.Add(new VehicleViewModel
                 {
-                    Id = int.Parse(item["Id"].ToString()),
-                    VehicleId = item["VehicleId"].ToString(),
-                    RegNo = item["RegNo"].ToString(),
-                    Status = status,// item["Status"].ToString(),
-                    CustomerId = int.Parse(item["CustomerId"].ToString()),
-                    CustomerName = item["CustomerName"].ToString(),
-                    CustomerAddress = item["CustomerAddress"].ToString()
+                    Id = 0,
+                    VehicleId = ex.Message,
+                    RegNo = "",
+                    Status = "",
+                    CustomerId = 0,
+                    CustomerName = "",
+                    CustomerAddress =""
                 });
             }
 

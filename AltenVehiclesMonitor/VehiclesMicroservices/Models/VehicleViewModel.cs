@@ -24,7 +24,9 @@ namespace VehiclesMicroservices.Models
 
         public string CustomerAddress { get; set; }
 
-
+        /// <summary>
+        /// return list of vehicles model
+        /// </summary>
         public static List<VehicleViewModel> Vehicles
         {
 

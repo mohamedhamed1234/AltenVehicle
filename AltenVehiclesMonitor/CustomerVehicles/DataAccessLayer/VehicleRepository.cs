@@ -10,6 +10,11 @@ namespace CustomerVehicles.DataAccessLayer
 {
     public class VehicleRepository
     {
+        /// <summary>
+        /// load vehicles data from XML by cutomer Id
+        /// </summary>
+        /// <param name="customerId"></param>
+        /// <returns></returns>
         public static DataRow[] loadData(string customerId)
         {
 

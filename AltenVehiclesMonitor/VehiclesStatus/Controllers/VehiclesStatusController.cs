@@ -12,6 +12,11 @@ namespace VehiclesStatus.Controllers
     [ApiController]
     public class VehiclesStatusController : ControllerBase
     {
+        /// <summary>
+        /// gets vehicle data and status by vehicle id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public IEnumerable<VehicleViewModel> Get(string id)
         {
