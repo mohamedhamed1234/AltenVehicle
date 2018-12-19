@@ -29,3 +29,8 @@ http://customervehicles-dev.us-east-1.elasticbeanstalk.com/api/customervehicles/
 
 Vehicles Microservice:
 http://vehiclesmicroservices-dev.us-east-1.elasticbeanstalk.com/api/vehicles
+
+# SERVERLESS ARCHITECTURE
+
+I believe that it is possible for this application to be in Serverless architecture by migrating all its services into FaaS like AWS Lambda Function or MS Azure Functions,
+and by doing this we will decrease the cost as we only will pay by function calls.
