@@ -15,6 +15,10 @@ You can filter by the vehicles either by customer or by vehicles status from the
 
 I have used TeamCity for CI and testing the project
 
+# Dokerizing the solution
+
+All the projects in the solution have been Dockerized 
+
 # CLOUD PLATFORM USED
 
 i have used AWS as cloud platform for hosting the Web App and for the microservices
