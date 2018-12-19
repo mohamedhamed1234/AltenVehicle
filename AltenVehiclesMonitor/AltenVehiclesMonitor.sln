@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltenVehiclesMonitor", "AltenVehiclesMonitor\AltenVehiclesMonitor.csproj", "{66E0FA21-5908-4238-8599-B2EC51DB844A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenVehiclesMonitor", "AltenVehiclesMonitor\AltenVehiclesMonitor.csproj", "{66E0FA21-5908-4238-8599-B2EC51DB844A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D4AFCEC0-56CA-4D75-974D-2392043805A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerVehicles", "CustomerVehicles\CustomerVehicles.csproj", "{892370DD-7C6F-4EE6-B797-BB1449654CBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerVehicles", "CustomerVehicles\CustomerVehicles.csproj", "{892370DD-7C6F-4EE6-B797-BB1449654CBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiclesMicroservices", "VehiclesMicroservices\VehiclesMicroservices.csproj", "{1EA48469-E8F8-4B70-9C5E-0A60315841FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehiclesMicroservices", "VehiclesMicroservices\VehiclesMicroservices.csproj", "{1EA48469-E8F8-4B70-9C5E-0A60315841FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiclesStatus", "VehiclesStatus\VehiclesStatus.csproj", "{3429B8F3-2CA2-42E1-8EC8-2B36AE66404E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehiclesStatus", "VehiclesStatus\VehiclesStatus.csproj", "{3429B8F3-2CA2-42E1-8EC8-2B36AE66404E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltenVehiclesMonitorTests", "AltenVehiclesMonitorTests\AltenVehiclesMonitorTests.csproj", "{1E8C9EEB-1B04-445F-A2F2-8229BC593787}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{3429B8F3-2CA2-42E1-8EC8-2B36AE66404E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3429B8F3-2CA2-42E1-8EC8-2B36AE66404E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3429B8F3-2CA2-42E1-8EC8-2B36AE66404E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E8C9EEB-1B04-445F-A2F2-8229BC593787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E8C9EEB-1B04-445F-A2F2-8229BC593787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E8C9EEB-1B04-445F-A2F2-8229BC593787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E8C9EEB-1B04-445F-A2F2-8229BC593787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

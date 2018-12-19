@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AltenVehiclesMonitor.ApiCaller
 {
-    public class RestApiCaller
+    public class RestApiCaller : IRestApiCaller
     {
 
         private string ConnectionErr = "Unable to connect, please check your internet connection.";
